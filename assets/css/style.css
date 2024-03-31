@@ -1,0 +1,377 @@
+.masthead {
+    background: #F5F6F7;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu .logo {
+    font-family: "Quicksand,sans-serif";
+    min-width: 25%;
+}
+
+.logo .dog-text {
+    color: #A61C20;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-icon__chevron {
+    padding: 12px;
+    font-size: 13.3px;
+    font-weight: 700;
+}
+
+.dropdown-icon__chevron:hover {
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #F5F6F7;
+    top: 100%;
+    left: 0;
+    white-space: nowrap;
+    border-radius: 5px;
+    border-bottom: 0.5rem solid #A61C20;
+    min-width: 262px;
+}
+
+.dropdown-content a {
+    display: block;
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    padding: 18px 12px;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    /* display: block; */
+}
+
+.active.dropdown-content {
+    display: block !important;
+}
+
+.menu-item__link {
+    display: inline-block;
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    padding: 18px 12px 18px 12px;
+    text-align: left;
+}
+
+.header-social {
+    padding: 24px 0 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.header-social {
+    height: 40px;
+}
+
+.header-social a {
+    color: #000;
+    font-size: 1.6rem;
+    padding: 0 1.2rem;
+}
+
+.logo span {
+    font-size: 4rem;
+}
+
+.main-heading {
+    color:
+        #111111;
+    font-family: "Baloo 2", sans-serif;
+    font-size: 48px;
+    line-height: 55.2px;
+    padding: 32px 0px 28px;
+    font-weight: 700;
+}
+
+.crossbar {
+    height: 0.4rem;
+    background: #000;
+}
+
+.thumbnail-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.main-about {
+    margin-top: 3.2rem;
+    padding: 0 48px 0 0;
+}
+
+.news-right__link,
+.news-left__link {
+    font-family: "Baloo 2", sans-serif;
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 41.4px;
+}
+
+.news-about__title {
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+}
+
+.news-left__link {
+    font-size: 1.8rem;
+    line-height: 21.6px;
+}
+
+.news-btn {
+    display: inline-block;
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.12px;
+    line-height: 16.8px;
+    padding: 8px 0px;
+    text-transform: uppercase;
+}
+
+.card-desc {
+    color: #111111;
+    font-size: 1.6rem;
+    line-height: 22.4px;
+    padding: 16px 0px 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-category {
+    display: inline-block;
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.12px;
+    line-height: 16.8px;
+    padding: 28px 0px 0 0;
+    text-transform: uppercase;
+}
+
+.card-title {
+    font-family: "Baloo 2", sans-serif;
+    font-size: 24px;
+    line-height: 28.8px;
+    font-weight: 700;
+}
+
+.card-category a {
+    padding-right: 1.6rem;
+}
+
+body a {
+    color: #000;
+}
+
+.trending {
+    margin-top: 35vh;
+}
+
+.trending-list {
+    color: #111111;
+    font-family: "Baloo 2", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36.8px;
+    margin: 0px 0px 24px;
+    padding: 0px 0px 28px;
+}
+
+.trending-title {
+    font-family: "Baloo 2", sans-serif;
+    font-size: 18px;
+    line-height: 21.6px;
+}
+
+.trending-desc {
+    display: inline-block;
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.12px;
+    line-height: 16.8px;
+    padding: 8px 0px;
+    text-transform: uppercase;
+}
+
+.news-lists {
+    margin-top: 64px;
+    padding: 0 48px 0 0;
+}
+
+.news-crossbar {
+    margin-top: 32px;
+}
+
+.main-body__news {
+    margin-bottom: 32px;
+}
+
+.mt-12{
+margin-top: 12px;
+}
+
+.footer__inner {
+    font-size: 1.6rem;
+    padding-top: 32px;
+}
+
+.footer-nav__list {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.be-footer__inner {
+margin-top: 32px;
+line-height: 32px;
+}
+
+.footer-logo  {
+    width: 100%;
+}
+
+.footer-nav__item {
+    padding: 12px 24px 12px 0;
+}
+
+.pagination {
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.paginate-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.paginate-link {
+    display: inline-block;
+    font-family: "Baloo 2", sans-serif;
+    font-size: 1.6rem;
+    padding: 8px 12px;
+    margin: 0 4px;
+    text-align: center;
+    color: #A61C20;
+}
+
+.paginate-active {
+    background-color: #A61C20;
+    color: #fff;
+}
+
+
+.header-search {
+    position: relative;
+}
+
+.form-search {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input-search {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.input-search__icon {
+position: absolute;
+top: 50%;
+left: 10%;
+transform: translate(-50%, -50%);
+}
+
+.input-search__icon i {
+    font-size: 1.6rem;
+}
+
+.close-search i{
+    font-size: 2.4rem;
+}
+
+.close-search {
+    margin-left: 1.6rem;
+}
+
+.input-search input {
+    padding: 16px 15px 16px 40px;
+}
+
+.btn-hide__search {
+    padding: 16px 40px; 
+    font-size: 1.6rem;
+    color: #fff;
+    background-color: #A61C20;
+    margin-left: 1.2rem;
+}
+
+
+.search-active {
+    display: flex;
+}
+
+.new-img__detail {
+    width: 100%;
+    object-fit: cover;
+}
+
+.note-info__img {
+    font-size: 1.6rem;
+    margin-bottom: 3.2rem;
+}
+
+.news-details {
+    font-size: 1.6rem;
+}
+
+.news-details img {
+    max-width: 100%;
+}
+
+.news-content__detail {
+    font-size: 1.6rem;
+    
+}
+
+.news-content__detail h1 {
+    padding: 1.2rem 0;
+    font-size: 3.6rem;
+    font-weight: 700;
+}
+
+
+.news-content__detail .author {
+    padding: 1.2rem 0;
+}
+
+.news-content__detail .author span {
+    color: #A61C20;
+}
+
